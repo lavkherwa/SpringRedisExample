@@ -11,7 +11,7 @@ import com.example.redis.model.User;
 @Repository
 public class UserRepositoryImpl implements UserRepository {
 
-	private static final String CONTAINER_KEY = "USER";
+	public static final String CONTAINER_KEY = "USER";
 
 	private final RedisTemplate<String, User> redisTemplate;
 	private final HashOperations<String, String, User> hashOperations;
