@@ -1,6 +1,6 @@
 # SpringRedisExample
 
-Simple REDIS example with spring boot
+POC: Simple REDIS example with spring boot
 
 
 START THE REDIS SERVER
